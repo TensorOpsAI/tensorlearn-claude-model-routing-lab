@@ -1,0 +1,2 @@
+# Current policy — approved revision 5
+Channel choice belongs to the product owner and privacy owner. No channel is approved yet. Current result notifications require review and release, contain no clinical details, and use the existing authenticated portal. claims-core allows 50 requests per second; preserve the 30-second per-customer cache. Treat delivery retries as idempotent by released-result version.

@@ -1,0 +1,23 @@
+{
+  "key": "model-routing",
+  "title": "Route models and compress context",
+  "minutes": 35,
+  "chapter": "Chapter 1 \u00b7 Context and parallel work",
+  "writeAllow": [
+    "routing.json",
+    "handoffs/**",
+    "assessment.json"
+  ],
+  "practice": [
+    "model-routing.practice"
+  ],
+  "needsAI": true,
+  "brief": "Every task receives the full repository history and the most expensive model. Costs grow while key constraints still disappear from the handoff.",
+  "acceptance": [
+    "Correctness meets the published threshold before efficiency credit.",
+    "Routine work stays on an appropriate approved stage and ambiguous work escalates with a reason.",
+    "Current constraints survive context compression.",
+    "Calls, retries and context/output limits stay within instructor configuration."
+  ],
+  "recipeIndex": 10
+}

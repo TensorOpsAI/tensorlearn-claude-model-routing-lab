@@ -1,0 +1,18 @@
+{
+  "stages": {
+    "extract": {
+      "modelAlias": "economy",
+      "maxInputTokens": 2000,
+      "maxOutputTokens": 500,
+      "maxRetries": 0
+    },
+    "reason": {
+      "modelAlias": "reasoning",
+      "maxInputTokens": 4000,
+      "maxOutputTokens": 1000,
+      "maxRetries": 0
+    }
+  },
+  "routes": [],
+  "escalationPolicy": "TODO define observable uncertainty/complexity criteria."
+}

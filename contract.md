@@ -1,0 +1,4 @@
+# Routing contract
+routing.json defines `stages` (extract/reason), `routes:[{taskType,stage}]` and `escalationPolicy`. Stage fields are modelAlias, maxInputTokens, maxOutputTokens and maxRetries. Model aliases must be present in the instructor's external policy; actual full IDs, token prices, admission allowance and authoritative ceilings are not student-controlled.
+The stage tool receives a validated stage ID and bounded input. No arbitrary shell, network or provider method exists. Quality precedes cost: dropping a critical constraint does not earn efficiency credit. The instructor must announce the quality threshold and allowance before launch.
+Use source citations in compact handoffs. A statement being repeated many times does not make an obsolete note authoritative. Report actual observed route and usage separately from predicted cost.

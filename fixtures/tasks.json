@@ -1,0 +1,28 @@
+[
+  {
+    "id": "extract-owner",
+    "taskType": "extract",
+    "prompt": "Who owns the channel decision in the current policy?",
+    "sources": [
+      "current-policy.md"
+    ]
+  },
+  {
+    "id": "conflicting-plan",
+    "taskType": "reason",
+    "prompt": "Plan a status refresh feature from current and archived notes. Identify unresolved decisions.",
+    "sources": [
+      "current-policy.md",
+      "archived-notes.md"
+    ]
+  },
+  {
+    "id": "compress-handoff",
+    "taskType": "reason",
+    "prompt": "Prepare a 200-word implementation handoff preserving current throughput, caching and privacy constraints.",
+    "sources": [
+      "current-policy.md",
+      "archived-notes.md"
+    ]
+  }
+]
